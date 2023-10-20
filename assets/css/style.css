@@ -44,8 +44,7 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
-    margin-left: 9px;
-    padding: 8px
+    
    
 }
 a:hover{text-decoration: underline;
@@ -91,17 +90,7 @@ p {
     background-color: #2a607c;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
