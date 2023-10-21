@@ -88,9 +88,21 @@ asset{
 asset h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    display:block;
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+asset p {
+    font-size: 16px;
+    display:block;
+    padding: 20px;
+    padding-bottom: 80px;
+    text-align: left;
 }
 asset img {
     max-height: 200px;
+    
 }
 benefits {
     padding: 20px;
@@ -107,6 +119,7 @@ benefit {
     color: #ffffff;
 }
 /*consolidated redundant classes*/
+/*added padding and text decoration to header to make it stand out*/
 benefit h3 {
     margin-bottom: 10px;
     text-align: center;
