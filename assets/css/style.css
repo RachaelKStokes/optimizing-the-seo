@@ -131,7 +131,7 @@ benefit img {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*added this section to align text*/
 benefit p {
     font-size: 16px;
     text-align: center;
