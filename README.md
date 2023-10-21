@@ -7,7 +7,7 @@ Search engine optimization company Horiseon has a website that lacked semantics.
 
 ![Screenshot of top half of modified Horiseon website](assets/screenshots/Screenshot-Horiseon-1.png)
 
-![Screenshot of bottom half of modified Horiseon website](assets/screenshots/Screenshot-Horiseon-2)
+![Screenshot of bottom half of modified Horiseon website](assets/screenshots/Screenshot-Horision-2)
 
 ## URL 
 
