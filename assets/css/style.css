@@ -85,6 +85,7 @@ asset{
     color: #ffffff;
     
 }
+/*added padding and alignment to text*/
 asset h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -102,11 +103,9 @@ asset p {
 }
 asset img {
     max-height: 200px;
-    
 }
 benefits {
-    padding: 20px;
-    clear: both;
+    padding: 5px;
     float: right;
     width: 20%;
     height: 100%;
@@ -131,6 +130,13 @@ benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+benefit p {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+
 }
 
 footer {
