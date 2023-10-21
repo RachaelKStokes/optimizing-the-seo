@@ -42,7 +42,7 @@ li {
 a {
     /*added underline for buttons*/
     color: #ffffff;
-    text-decoration:underline;
+    text-decoration:underline;  
 }
 
 p {
@@ -164,4 +164,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-
+a:hover  {color:#1e4356}
