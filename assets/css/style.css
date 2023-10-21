@@ -68,85 +68,67 @@ p {
     margin-left: 25px;
 }
 
-.content-section {
+content-section {
     width: 75%;
-    display: inline-block;
     margin-left: 20px;
+    float: left;
+    margin-right: 25px;
 }
-
-.benefits {
-    margin-right: 20px;
+/*removed redundant classes*/
+asset{
+    margin-bottom: 20px;
+    padding: 20px;
+    clear:both;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    
+}
+asset h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+asset img {
+    max-height: 200px;
+}
+benefits {
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2a607c;
+    background-color:#1e4356;
 }
 /*consolidated redundant classes*/
-.benefit {
+benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 /*consolidated redundant classes*/
-.benefit h3 {
+benefit h3 {
     margin-bottom: 10px;
     text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
 }
 /*consolidated redundant classes*/
-.benefit img {
+benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*updated color to match*/
-.asset{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
 
-
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/*needs no update*/
+footer h2 {
     font-size: 20px;
 }
+/*added intercative text styling */
 a:hover  {color:#1e4356}
