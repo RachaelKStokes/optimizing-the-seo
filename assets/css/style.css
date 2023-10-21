@@ -22,40 +22,34 @@ header {
 }
 
 nav {
-   
+   /* updated padding and font size*/
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     display: flex;
     background-color: #2a607c;
     padding: 26px;
-
-
 }
-
 ul {
-    list-style-type: none;
-    
+    list-style-type: none; 
 }
-
 li {
     display:inline-flex;
     padding-left: 10px;
-    flex-grow: 1;
-
-    
+    flex-grow: 1; 
 }
 
 a {
+    /*added underline for buttons*/
     color: #ffffff;
-    text-decoration: none;
+    text-decoration:underline;
 }
 
 p {
     font-size: 16px;
 }
 
-.hero {
+.intro-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -74,7 +68,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
+.content-section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
